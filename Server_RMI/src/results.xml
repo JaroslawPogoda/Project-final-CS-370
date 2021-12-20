@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ../cda/Schemas/CDA.xsd">
+    <realmCode code="US"/>
+    <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+    <templateId root="2.16.840.1.113883.10.20.1"/>
+    <templateId root="2.16.840.1.113883.3.27.1776"/>
+    <templateId root="2.16.840.1.113883.10.20.3"/>
+    <templateId root="2.16.840.1.113883.3.88.11.32.1"/>
+    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.1"/>
+    <id assigningAuthorityName="eClinicalWorks" extension="7505460" root="2.16.840.1.113883.3.130.1.2.12.2.1"/>
+    <code code="34133-9" codeSystem="2.16.840.1.113883.6.1"
+        codeSystemName="LOINC" displayName="SUMMARIZATION OF EPISODE NOTE"/>
+    <title>IUHC Medclinic Continuity Of Care Document</title>
+    <effectiveTime value="20140924092733+0000"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+    <languageCode code="en-US"/>
+    <recordTarget>
+        <patientRole classCode="PAT">
+            <id assigningAuthorityName="eClinicalWorks" extension="UNK" root="2.16.840.1.113883.3.130.1.1.1"/>
+            <addr>
+                <streetAddressLine/>
+                <city/>
+                <state>IN</state>
+                <country>USA</country>
+                <postalCode/>
+            </addr>
+            <telecom use="HP" value="555-555-5555"/>
+            <patient>
+                <name>
+                    <given>Steve Jacobs</given>
+                    <given>Ecw</given>
+                    <family>Ecw</family>
+                </name>
+                <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"/>
+                <birthTime value="19000101"/>
+            </patient>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <time value="20140924"/>
+        <assignedAuthor>
+            <id root="AoYorDMv-AIhd-X7ZK-y90m-5Jn00QVUMqdX"/>
+            <addr>
+                <streetAddressLine>600 N JORDAN AVENUE</streetAddressLine>
+                <city>BLOOMINGTON</city>
+                <state>IN</state>
+                <postalCode>474053190</postalCode>
+            </addr>
+            <telecom value="812-855-4011"/>
+            <assignedPerson>
+                <name>Steven Jacobs</name>
+            </assignedPerson>
+            <representedOrganization>
+                <id root="2.16.840.1.113883.3.130.1.2.12.2.1"/>
+                <name>IUHC Medclinic</name>
+                <telecom/>
+                <addr/>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <id root="2.16.840.1.113883.3.130.1.2.12.2.1"/>
+                <name>eClinicalWorks</name>
+                <telecom/>
+                <addr/>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <documentationOf>
+        <serviceEvent classCode="PCPR">
+            <effectiveTime>
+                <low value="20140924"/>
+                <high value="20140924"/>
+            </effectiveTime>
+        </serviceEvent>
+    </documentationOf>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <templateId assigningAuthorityName="HITSP/C83" root="2.16.840.1.113883.3.88.11.83.102"/>
+                    <templateId assigningAuthorityName="IHE PCC" root="1.3.6.1.4.1.19376.1.5.3.1.3.13"/>
+                    <templateId assigningAuthorityName="HL7 CCD" root="2.16.840.1.113883.10.20.1.2"/>
+                    <code code="48765-2"
+                        codeSystem="2.16.840.1.113883.6.1"
+                        codeSystemName="LOINC" displayName="Allergies"/>
+                    <title>Allergies</title>
+                    <text>
+						Allergies not verified
+						<content ID="NKN_allergies"/>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId assigningAuthorityName="HL7 CCD" root="2.16.840.1.113883.10.20.1.27"/>
+                            <templateId
+                                assigningAuthorityName="HITSP C83" root="2.16.840.1.113883.3.88.11.83.6"/>
+                            <templateId assigningAuthorityName="IHE PCC" root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1"/>
+                            <templateId assigningAuthorityName="IHE PCC" root="1.3.6.1.4.1.19376.1.5.3.1.4.5.3"/>
+                            <id root="f6fd6f86-4265-4dcb-95cf-7799100b54ad"/>
+                            <code nullFlavor="NA"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId
+                                    assigningAuthorityName="HL7 CCD" root="2.16.840.1.113883.10.20.1.18"/>
+                                    <templateId
+                                    assigningAuthorityName="IHE PCC" root="1.3.6.1.4.1.19376.1.5.3.1.4.6"/>
+                                    <templateId
+                                    assigningAuthorityName="IHE PCC" root="1.3.6.1.4.1.19376.1.5.3.1.4.5"/>
+                                    <templateId
+                                    assigningAuthorityName="HL7 CCD" root="2.16.840.1.113883.10.20.1.28"/>
+                                    <id root="2b37be6b-9b1c-4069-bbca-1caf5fe1937d"/>
+                                    <code code="420134006"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    codeSystemName="SNOMED CT" displayName="Propensity to adverse reactions (disorder)"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                    <low value="201010260000"/>
+                                    </effectiveTime>
+                                    <value code="160244002"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    codeSystemName="SNOMED CT"
+                                    displayName="Allergies not verified" xsi:type="CD">
+                                    <originalText>
+                                    <reference value="#NKN_allergies"/>
+                                    </originalText>
+                                    </value>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.1.11"/>
+                    <templateId root="2.16.840.1.113883.3.88.11.83.103"/>
+                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6"/>
+                    <code code="11450-4"
+                        codeSystem="2.16.840.1.113883.6.1"
+                        codeSystemName="LOINC" displayName="Problems"/>
+                    <title>Problems</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Problem Type</th>
+                                    <th>Condition</th>
+                                    <th>ICD-9 Code</th>
+                                    <th>Effective Dates</th>
+                                    <th>OnSet Dates</th>
+                                    <th>Condition Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Problem</td>
+                                    <td>Abdominal bloating</td>
+                                    <td>787.3</td>
+                                    <td>March 05, 2012</td>
+                                    <td/>
+                                    <td>Active</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.1.27"/>
+                            <templateId root="2.16.840.1.113883.3.88.11.83.7"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1"/>
+                            <id root="hFqS1r5e-0L1l-nSSM-VWcU-VCUozvMZ9Ebn"/>
+                            <code nullFlavor="NA"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.1.28"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5"/>
+                                    <id root="1HMTtwMe-bpZq-9gkv-GH1G-FOy0DsSMu7aI"/>
+                                    <code code="55607006"
+                                    codeSystem="2.16.840.1.113883.6.96"
+                                    codeSystemName="SNOMED CT" displayName="Problem"/>
+                                    <text>
+                                    <reference value="#prob1"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                    <low nullFlavor="UNK"/>
+                                    </effectiveTime>
+                                    <value nullFlavor="UNK" xsi:type="CD">
+                                    <translation code="787.3"
+                                    codeSystem="2.16.840.1.113883.6.103"
+                                    codeSystemName="ICD-9 CM" displayName="Abdominal bloating"/>
+                                    </value>
+                                    <entryRelationship typeCode="REFR">
+                                    <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.1.50"/>
+                                    <code code="33999-4"
+                                    codeSystem="2.16.840.1.113883.6.1"
+                                    codeSystemName="LOINC" displayName="STATUS"/>
+                                    <statusCode code="completed"/>
+                                    <value code="55561003"
+                                    codeSystem="2.16.840.1.113883.6.103"
+                                    codeSystemName="SNOMED CT"
+                                    displayName="Active" xsi:type="CE"/>
+                                    </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.1.8"/>
+                    <templateId root="2.16.840.1.113883.3.88.11.83.112"/>
+                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.19"/>
+                    <code code="10160-0"
+                        codeSystem="2.16.840.1.113883.6.1"
+                        codeSystemName="LOINC" displayName="History of medication use"/>
+                    <title>Medications</title>
+                    <text>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Medication</th>
+                                    <th>Coding System</th>
+                                    <th>Code</th>
+                                    <th>Instructions</th>
+                                    <th>Start Date</th>
+                                    <th>Stop Date</th>
+                                    <th>Status</th>
+                                    <th>Comments</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td ID="med1">Flonase</td>
+                                    <td>MediSpan</td>
+                                    <td>00173-0453-01</td>
+                                    <td>2 sprays 50 MCG/ACT Nasally Once a day</td>
+                                    <td>Unknown</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                </tr>
+                                <tr>
+                                    <td ID="med2">Lipitor</td>
+                                    <td>MediSpan</td>
+                                    <td>00071-0156-23</td>
+                                    <td>1 tablet 20 MG Orally Once a day</td>
+                                    <td>Unknown</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                </tr>
+                                <tr>
+                                    <td ID="med3">Singulair</td>
+                                    <td>MediSpan</td>
+                                    <td>00006-0117-01</td>
+                                    <td>1 tablet in the evening 10 MG Orally Once a day</td>
+                                    <td>Unknown</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                </tr>
+                                <tr>
+                                    <td ID="med4">ciprofloxin otic</td>
+                                    <td>Unknown</td>
+                                    <td>Unknown</td>
+                                    <td>as directed 3 % Left ear BID</td>
+                                    <td>March 06, 2012</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                </tr>
+                                <tbody>
+                                    <tr>
+                                    <td ID="med1">Apri</td>
+                                    <td>MediSpan</td>
+                                    <td>00555-9043-58</td>
+                                    <td>1 tablet 0.15-30 MG-MCG Orally Once a day</td>
+                                    <td>Aug 10, 2011</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                    </tr>
+                                    <tr>
+                                    <td ID="med2">Norco</td>
+                                    <td>MediSpan</td>
+                                    <td>12280-0035-00</td>
+                                    <td>1 tablet as needed for pain 10-325 MG Orally every 6 hrs</td>
+                                    <td>Dec 07, 2011</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                    </tr>
+                                    <tr>
+                                    <td ID="med3">Zofran ODT</td>
+                                    <td>MediSpan</td>
+                                    <td>00173-0569-00</td>
+                                    <td>1-2 tabs dissolve on tongue, then swallow prn 4 MG Orally q 6 hours</td>
+                                    <td>Dec 14, 2011</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                    </tr>
+                                    <tr>
+                                    <td ID="med4">Desonide Oint-Moisturizing Lot</td>
+                                    <td>MediSpan</td>
+                                    <td>00299-5775-01</td>
+                                    <td>as directed 0.05 % Externally </td>
+                                    <td>Jan 10, 2012</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                    </tr>
+                                    <tr>
+                                    <td ID="med5">Triamcinolone Acetonide</td>
+                                    <td>MediSpan</td>
+                                    <td>23490-6419-01</td>
+                                    <td>in orabase; apply to apthous ulcer 0.1 % Mouth/Throat QID</td>
+                                    <td>March 05, 2012</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                    </tr>
+                                    <tr>
+                                    <td ID="med6">Erythromycin</td>
+                                    <td>MediSpan</td>
+                                    <td>13548-0030-25</td>
+                                    <td>1 application to affected area 2 % Externally Twice a day</td>
+                                    <td>Nov 14, 2011</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                    </tr>
+                                    <tr>
+                                    <td ID="med7">Keflex</td>
+                                    <td>MediSpan</td>
+                                    <td>00247-1181-02</td>
+                                    <td>1 capsule 500 MG Orally every 12 hrs</td>
+                                    <td>Unknown</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                    </tr>
+                                    <tr>
+                                    <td ID="med8">Cipro</td>
+                                    <td>MediSpan</td>
+                                    <td>00085-1756-01</td>
+                                    <td>1 tablet 250 mg Orally every 12 hrs</td>
+                                    <td>Unknown</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                    </tr>
+                                    <tr>
+                                    <td ID="med9">Ciprofloxacin HCl</td>
+                                    <td>MediSpan</td>
+                                    <td>00065-0654-35</td>
+                                    <td>as directed 0.3 % Ophthalmic </td>
+                                    <td>Aug 24, 2011</td>
+                                    <td>Unknown</td>
+                                    <td>Active</td>
+                                    <td>Taking</td>
+                                    </tr>
+                                </tbody>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.1.24"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7"/>
+                            <templateId root="2.16.840.1.113883.3.88.11.83.8"/>
+                            <id root="JsTCu3Ng-5Wpx-j8n0-az1j-Zv5UFTNQXtVy"/>
+                            <text>
+                                <reference value="#med1"/>
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <routeCode code="UNK"
+                                codeSystem="2.16.840.1.113883.3.26.1.1"
+                                codeSystemName="RouteOfAdministration" displayName="Nasally"/>
+                            <doseQuantity value="0"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="2.16.840.1.113883.10.20.1.53"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2"/>
+                                    <templateId root="2.16.840.1.113883.3.88.11.83.8.2"/>
+                                    <manufacturedMaterial>
+                                    <code code="00173-0453-01"
+                                    codeSystemName="MediSpan" displayName="Flonase">
+
+                                    <originalText>
+												Flonase
+												<reference value="#med1"/>
+                                    </originalText>
+                                    </code>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.1.49"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3"/>
+                                    <code code="PINSTRUCT"
+                                    codeSystem="1.3.6.1.4.1.19376.1.5.3.2" codeSystemName="IHEActCode"/>
+                                    <text>
+                                    <reference value="#ins1"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.1.24"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7"/>
+                            <templateId root="2.16.840.1.113883.3.88.11.83.8"/>
+                            <id root="GGhux0Wu-r0jZ-QnQm-A7Yj-6yWOReTszyx0"/>
+                            <text>
+                                <reference value="#med2"/>
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <routeCode code="UNK"
+                                codeSystem="2.16.840.1.113883.3.26.1.1"
+                                codeSystemName="RouteOfAdministration" displayName="Orally"/>
+                            <doseQuantity value="0"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="2.16.840.1.113883.10.20.1.53"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2"/>
+                                    <templateId root="2.16.840.1.113883.3.88.11.83.8.2"/>
+                                    <manufacturedMaterial>
+                                    <code code="00071-0156-23"
+                                    codeSystemName="MediSpan" displayName="Lipitor">
+
+                                    <originalText>
+												Lipitor
+												<reference value="#med2"/>
+                                    </originalText>
+                                    </code>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.1.49"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3"/>
+                                    <code code="PINSTRUCT"
+                                    codeSystem="1.3.6.1.4.1.19376.1.5.3.2" codeSystemName="IHEActCode"/>
+                                    <text>
+                                    <reference value="#ins2"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.1.24"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7"/>
+                            <templateId root="2.16.840.1.113883.3.88.11.83.8"/>
+                            <id root="0SD8TOwu-HgsG-gYjx-zguk-9mPpdDb76mqQ"/>
+                            <text>
+                                <reference value="#med3"/>
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <routeCode code="UNK"
+                                codeSystem="2.16.840.1.113883.3.26.1.1"
+                                codeSystemName="RouteOfAdministration" displayName="Orally"/>
+                            <doseQuantity value="0"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="2.16.840.1.113883.10.20.1.53"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2"/>
+                                    <templateId root="2.16.840.1.113883.3.88.11.83.8.2"/>
+                                    <manufacturedMaterial>
+                                    <code code="00006-0117-01"
+                                    codeSystemName="MediSpan" displayName="Singulair">
+
+                                    <originalText>
+												Singulair
+												<reference value="#med3"/>
+                                    </originalText>
+                                    </code>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.1.49"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3"/>
+                                    <code code="PINSTRUCT"
+                                    codeSystem="1.3.6.1.4.1.19376.1.5.3.2" codeSystemName="IHEActCode"/>
+                                    <text>
+                                    <reference value="#ins3"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.1.24"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7"/>
+                            <templateId root="2.16.840.1.113883.3.88.11.83.8"/>
+                            <id root="dLpfhS1H-YUZS-S4nf-snZf-cXgVxWrGamUB"/>
+                            <text>
+                                <reference value="#med4"/>
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime nullFlavor="UNK"/>
+                            <routeCode code="UNK"
+                                codeSystem="2.16.840.1.113883.3.26.1.1"
+                                codeSystemName="RouteOfAdministration" displayName="Left ear"/>
+                            <doseQuantity value="0"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="2.16.840.1.113883.10.20.1.53"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2"/>
+                                    <templateId root="2.16.840.1.113883.3.88.11.83.8.2"/>
+                                    <manufacturedMaterial>
+                                    <code
+                                    displayName="ciprofloxin otic" nullFlavor="UNK">
+
+                                    <originalText>
+												ciprofloxin otic
+												<reference value="#med4"/>
+                                    </originalText>
+                                    </code>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.1.49"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3"/>
+                                    <code code="PINSTRUCT"
+                                    codeSystem="1.3.6.1.4.1.19376.1.5.3.2" codeSystemName="IHEActCode"/>
+                                    <text>
+                                    <reference value="#ins4"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.3.88.11.83.122"/>
+                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.28"/>
+                    <code code="30954-2"
+                        codeSystem="2.16.840.1.113883.6.1"
+                        codeSystemName="LOINC" displayName="Results"/>
+                    <title>Results</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Test</th>
+                                    <th>Attribute</th>
+                                    <th>Value(Normal Range)</th>
+                                    <th>LOINC Code</th>
+                                    <th>Result</th>
+                                    <th>Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Ear Lavage Left Recheck</td>
+                                    <td/>
+                                    <td> ()</td>
+                                    <td/>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr>
+                                    <td>Wound Care</td>
+                                    <td/>
+                                    <td> ()</td>
+                                    <td/>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                                <tr>
+                                    <td>MMR Vaccination</td>
+                                    <td/>
+                                    <td> ()</td>
+                                    <td/>
+                                    <td/>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <procedure classCode="PROC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.1.29"/>
+                            <templateId root="2.16.840.1.113883.3.88.11.83.17"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19"/>
+                            <id root="YH1saidd-B0MA-7XlX-8RcR-t8Mclb2DFEoO"/>
+                            <code code="0"
+                                codeSystem="2.16.840.1.113883.6.12"
+                                codeSystemName="CPT-4" displayName="UNK">
+                                <originalText>
+                                    <reference value="#proc2"/>
+                                </originalText>
+                            </code>
+                            <text>
+                                <reference/>
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime nullFlavor="UNK"/>
+                            <entryRelationship typeCode="RSON">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.3.88.11.83.15.1"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13"/>
+                                    <templateId root="2.16.840.1.113883.10.20.1.31"/>
+                                    <id root="UCGGOTO4-sN7O-erFS-Da9w-Bo31h9GEMN6e"/>
+                                    <code code="UNK"
+                                    codeSystem="2.16.840.1.113883.5.83" displayName="UNK"/>
+                                    <text>
+                                    <reference value="#Res2"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20120302"/>
+                                    <value unit="UNK" value="0" xsi:type="PQ"/>
+                                    <interpretationCode code="L" codeSystem="2.16.840.1.113883.5.83"/>
+                                    <referenceRange>
+                                    <observationRange>
+                                    <value xsi:type="IVL_PQ">
+                                    <low nullFlavor="UNK" unit="UNK"/>
+                                    <high nullFlavor="UNK" unit="UNK"/>
+                                    </value>
+                                    </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </entryRelationship>
+                        </procedure>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <procedure classCode="PROC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.1.29"/>
+                            <templateId root="2.16.840.1.113883.3.88.11.83.17"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19"/>
+                            <id root="Gr9rBfwf-AlJ0-DF7y-wekg-U4853tHpAbs0"/>
+                            <code code="0"
+                                codeSystem="2.16.840.1.113883.6.12"
+                                codeSystemName="CPT-4" displayName="UNK">
+                                <originalText>
+                                    <reference value="#proc3"/>
+                                </originalText>
+                            </code>
+                            <text>
+                                <reference/>
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime nullFlavor="UNK"/>
+                            <entryRelationship typeCode="RSON">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.3.88.11.83.15.1"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13"/>
+                                    <templateId root="2.16.840.1.113883.10.20.1.31"/>
+                                    <id root="s8qYpVZp-X2xO-fIrM-KEpH-gNkAZDd9pA2q"/>
+                                    <code code="UNK"
+                                    codeSystem="2.16.840.1.113883.5.83" displayName="UNK"/>
+                                    <text>
+                                    <reference value="#Res3"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20120302"/>
+                                    <value unit="UNK" value="0" xsi:type="PQ"/>
+                                    <interpretationCode code="L" codeSystem="2.16.840.1.113883.5.83"/>
+                                    <referenceRange>
+                                    <observationRange>
+                                    <value xsi:type="IVL_PQ">
+                                    <low nullFlavor="UNK" unit="UNK"/>
+                                    <high nullFlavor="UNK" unit="UNK"/>
+                                    </value>
+                                    </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </entryRelationship>
+                        </procedure>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <procedure classCode="PROC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.1.29"/>
+                            <templateId root="2.16.840.1.113883.3.88.11.83.17"/>
+                            <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19"/>
+                            <id root="yFG5utNd-JNpL-n3RK-cuDh-jV90pCx2Wkq8"/>
+                            <code code="0"
+                                codeSystem="2.16.840.1.113883.6.12"
+                                codeSystemName="CPT-4" displayName="UNK">
+                                <originalText>
+                                    <reference value="#proc4"/>
+                                </originalText>
+                            </code>
+                            <text>
+                                <reference/>
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime nullFlavor="UNK"/>
+                            <entryRelationship typeCode="RSON">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.3.88.11.83.15.1"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13"/>
+                                    <templateId root="2.16.840.1.113883.10.20.1.31"/>
+                                    <id root="kuPRAwOs-K2q1-KlAu-gsgJ-fT7FzNE6slH7"/>
+                                    <code code="UNK"
+                                    codeSystem="2.16.840.1.113883.5.83" displayName="UNK"/>
+                                    <text>
+                                    <reference value="#Res4"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20120302"/>
+                                    <value unit="UNK" value="0" xsi:type="PQ"/>
+                                    <interpretationCode code="L" codeSystem="2.16.840.1.113883.5.83"/>
+                                    <referenceRange>
+                                    <observationRange>
+                                    <value xsi:type="IVL_PQ">
+                                    <low nullFlavor="UNK" unit="UNK"/>
+                                    <high nullFlavor="UNK" unit="UNK"/>
+                                    </value>
+                                    </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </entryRelationship>
+                        </procedure>
+                    </entry>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>
