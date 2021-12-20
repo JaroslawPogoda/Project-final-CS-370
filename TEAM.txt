@@ -1,0 +1,3 @@
+Eric Goncalves - Frontend (Servlet and .jsp), Merge, JSON 
+Dardan Gjonbalaj - RMI, Backend
+Jaroslaw Pogoa - Testing, Diagrams, 

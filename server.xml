@@ -1,0 +1,2449 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<?xml-stylesheet type="text/xsl"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:hl7-org:v3 ../cda/Schemas/CDA.xsd">
+	<realmCode code="US" />
+	<typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3" />
+	<templateId root="2.16.840.1.113883.10.20.1" />
+	<templateId root="2.16.840.1.113883.3.27.1776" />
+	<templateId root="2.16.840.1.113883.10.20.3" />
+	<templateId root="2.16.840.1.113883.3.88.11.32.1" />
+	<templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.1" />
+	<id assigningAuthorityName="eClinicalWorks" extension="9900787"
+		root="2.16.840.1.113883.3.130.1.2.12.2.1" />
+	<code code="34133-9" codeSystem="2.16.840.1.113883.6.1"
+		codeSystemName="LOINC" displayName="SUMMARIZATION OF EPISODE NOTE" />
+	<title>IUHC Ancillary Continuity Of Care Document</title>
+	<effectiveTime value="20140924093347+0000" />
+	<confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" />
+	<languageCode code="en-US" />
+	<recordTarget>
+		<patientRole classCode="PAT">
+			<id assigningAuthorityName="eClinicalWorks" extension="142895"
+				root="2.16.840.1.113883.3.130.1.1.1" />
+			<addr>
+				<streetAddressLine>Ff113 202 </streetAddressLine>
+				<city>Bloomington</city>
+				<state>IN</state>
+				<country>USA</country>
+				<postalCode>47405</postalCode>
+			</addr>
+			<telecom use="HP" value="812-855-2472" />
+			<patient>
+				<name>
+					<given>Insite</given>
+					<given />
+					<family>Test</family>
+				</name>
+				<administrativeGenderCode code="M"
+					codeSystem="2.16.840.1.113883.5.1" />
+				<birthTime value="19000101" />
+			</patient>
+		</patientRole>
+	</recordTarget>
+	<author>
+		<time value="20140924" />
+		<assignedAuthor>
+			<id root="JtUFcy4h-cXBi-VA82-0lG0-Re3uURrVeSi4" />
+			<addr>
+				<streetAddressLine>600 N JORDAN AVENUE</streetAddressLine>
+				<city>BLOOMINGTON</city>
+				<state>IN</state>
+				<postalCode>474053190</postalCode>
+			</addr>
+			<telecom value="812-855-4011" />
+			<assignedPerson>
+				<name>Lab Lab</name>
+			</assignedPerson>
+			<representedOrganization>
+				<id root="2.16.840.1.113883.3.130.1.2.12.2.1" />
+				<name>IUHC Ancillary</name>
+				<telecom />
+				<addr />
+			</representedOrganization>
+		</assignedAuthor>
+	</author>
+	<custodian>
+		<assignedCustodian>
+			<representedCustodianOrganization>
+				<id root="2.16.840.1.113883.3.130.1.2.12.2.1" />
+				<name>eClinicalWorks</name>
+				<telecom />
+				<addr />
+			</representedCustodianOrganization>
+		</assignedCustodian>
+	</custodian>
+	<documentationOf>
+		<serviceEvent classCode="PCPR">
+			<effectiveTime>
+				<low value="20140924" />
+				<high value="20140924" />
+			</effectiveTime>
+		</serviceEvent>
+	</documentationOf>
+	<component>
+		<structuredBody>
+			<component>
+				<section>
+					<templateId assigningAuthorityName="HITSP/C83"
+						root="2.16.840.1.113883.3.88.11.83.102" />
+					<templateId assigningAuthorityName="IHE PCC"
+						root="1.3.6.1.4.1.19376.1.5.3.1.3.13" />
+					<templateId assigningAuthorityName="HL7 CCD"
+						root="2.16.840.1.113883.10.20.1.2" />
+					<code code="48765-2" codeSystem="2.16.840.1.113883.6.1"
+						codeSystemName="LOINC" displayName="Allergies" />
+					<title>Allergies</title>
+					<text>
+						Allergies not verified
+						<content ID="NKN_allergies" />
+					</text>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId assigningAuthorityName="HL7 CCD"
+								root="2.16.840.1.113883.10.20.1.27" />
+							<templateId assigningAuthorityName="HITSP C83"
+								root="2.16.840.1.113883.3.88.11.83.6" />
+							<templateId assigningAuthorityName="IHE PCC"
+								root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<templateId assigningAuthorityName="IHE PCC"
+								root="1.3.6.1.4.1.19376.1.5.3.1.4.5.3" />
+							<id root="f6fd6f86-4265-4dcb-95cf-7799100b54ad" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low nullFlavor="UNK" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId assigningAuthorityName="HL7 CCD"
+										root="2.16.840.1.113883.10.20.1.18" />
+									<templateId assigningAuthorityName="IHE PCC"
+										root="1.3.6.1.4.1.19376.1.5.3.1.4.6" />
+									<templateId assigningAuthorityName="IHE PCC"
+										root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<templateId assigningAuthorityName="HL7 CCD"
+										root="2.16.840.1.113883.10.20.1.28" />
+									<id root="2b37be6b-9b1c-4069-bbca-1caf5fe1937d" />
+									<code code="420134006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Propensity to adverse reactions (disorder)" />
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="201010260000" />
+									</effectiveTime>
+									<value code="160244002" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Allergies not verified"
+										xsi:type="CD">
+										<originalText>
+											<reference value="#NKN_allergies" />
+										</originalText>
+									</value>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId root="2.16.840.1.113883.10.20.1.11" />
+					<templateId root="2.16.840.1.113883.3.88.11.83.103" />
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6" />
+					<code code="11450-4" codeSystem="2.16.840.1.113883.6.1"
+						codeSystemName="LOINC" displayName="Problems" />
+					<title>Problems</title>
+					<text>
+						<table>
+							<thead>
+								<tr>
+									<th>Problem Type</th>
+									<th>Condition</th>
+									<th>ICD-9 Code</th>
+									<th>Effective Dates</th>
+									<th>OnSet Dates</th>
+									<th>Condition Status</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Problem</td>
+									<td>Corneal disorder due to contact lens</td>
+									<td>371.82</td>
+									<td>Nov 10, 2011</td>
+									<td />
+									<td>Active</td>
+								</tr>
+								<tr>
+									<td>Problem</td>
+									<td>Marginal corneal ulcer</td>
+									<td>370.01</td>
+									<td>Aug 10, 2011</td>
+									<td />
+									<td>Active</td>
+								</tr>
+								<tr>
+									<td>Problem</td>
+									<td>Secondary iridocyclitis, noninfectious</td>
+									<td>364.04</td>
+									<td>Aug 10, 2011</td>
+									<td />
+									<td>Active</td>
+								</tr>
+								<tr>
+									<td>Problem</td>
+									<td>Acute follicular conjunctivitis</td>
+									<td>372.02</td>
+									<td>Aug 17, 2011</td>
+									<td />
+									<td>Active</td>
+								</tr>
+								<tr>
+									<td>Problem</td>
+									<td>Acute upper respiratory infections of unspecified site</td>
+									<td>465.9</td>
+									<td>Aug 08, 2011</td>
+									<td />
+									<td>Active</td>
+								</tr>
+								<tr>
+									<td>Problem</td>
+									<td>Abdominal aneurysm, ruptured</td>
+									<td>441.3</td>
+									<td>Aug 04, 2011</td>
+									<td />
+									<td>Active</td>
+								</tr>
+								<tr>
+									<td>Problem</td>
+									<td>Acute allergic serous otitis media</td>
+									<td>381.04</td>
+									<td>Aug 08, 2011</td>
+									<td />
+									<td>Active</td>
+								</tr>
+								<tr>
+									<td>Problem</td>
+									<td>Unspecified sinusitis (chronic)</td>
+									<td>473.9</td>
+									<td>Aug 03, 2011</td>
+									<td />
+									<td>Active</td>
+								</tr>
+								<tr>
+									<td>Problem</td>
+									<td>Family history of stroke (cerebrovascular)</td>
+									<td>V17.1</td>
+									<td>0: 0Z, T00:</td>
+									<td>Jan 26, 2007</td>
+									<td>Active</td>
+								</tr>
+								<tr>
+									<td>Problem</td>
+									<td>Elevated blood pressure reading without diagnosis of
+										hypertension
+									</td>
+									<td>796.2</td>
+									<td>0: 0Z, T00:</td>
+									<td>Jan 26, 2007</td>
+									<td>Active</td>
+								</tr>
+								<tr>
+									<td>Problem</td>
+									<td>Trichiasis of eyelid without entropion</td>
+									<td>374.05</td>
+									<td>0: 0Z, T00:</td>
+									<td>Jan 26, 2007</td>
+									<td>Active</td>
+								</tr>
+								<tr>
+									<td>Problem</td>
+									<td>Insomnia, unspecified</td>
+									<td>780.52</td>
+									<td>0: 0Z, T00:</td>
+									<td>Jan 26, 2007</td>
+									<td>Active</td>
+								</tr>
+							</tbody>
+						</table>
+					</text>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="wTsNIcPT-qZHC-UCdF-TpAa-REp3mhJp2Gnm" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low nullFlavor="UNK" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="bnRjx8Bo-EDmu-ersM-s19L-0Fl6dZ9prq2s" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low nullFlavor="UNK" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="371.82" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM" displayName="Corneal disorder due to contact lens" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="qDGKRLHC-fXLE-scZK-kVyy-fgU2gwK6nvDG" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low nullFlavor="UNK" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="yXfF1XBY-9VOU-Qa0N-Va3K-gLROQZIFkkQd" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob2" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low nullFlavor="UNK" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="370.01" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM" displayName="Marginal corneal ulcer" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="N82FfZFT-oVtf-6EWZ-fs42-6VubHYwAuULd" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low nullFlavor="UNK" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="J2vP2xHg-pTD6-t1VA-gdjq-KTUBQLvDF3yT" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob3" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low nullFlavor="UNK" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="364.04" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM" displayName="Secondary iridocyclitis, noninfectious" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="ypPfXxsR-ruCS-IM1M-lnzV-MVOFHYXQ7Xjt" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low nullFlavor="UNK" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="ahi63b36-muyT-ccQs-PrDP-AQAnxPNSMH0k" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob4" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low nullFlavor="UNK" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="372.02" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM" displayName="Acute follicular conjunctivitis" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="qV8nJiiT-uL6h-PkOK-w6IN-ff2o0xLC3qWk" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low nullFlavor="UNK" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="Ld8Ws6pL-5GD5-TbDT-gZBP-NoZMpS9x1o1V" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob5" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low nullFlavor="UNK" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="465.9" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM"
+											displayName="Acute upper respiratory infections of unspecified site" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="issDuTMb-9fng-DeZj-0GAD-wDvbW4K8EhTI" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low nullFlavor="UNK" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="WD8ATtdF-tnYR-2Rsk-Cve3-6WuxsrsAurmX" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob6" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low nullFlavor="UNK" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="441.3" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM" displayName="Abdominal aneurysm, ruptured" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="1fyJBlRc-Le2E-VEol-BU8Z-mwgfT8loACld" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low nullFlavor="UNK" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="IZKSizqA-nfUr-Dke7-KBxa-irz424YQjPwJ" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob7" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low nullFlavor="UNK" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="381.04" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM" displayName="Acute allergic serous otitis media" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="rwsE9n9X-GF6B-Zhh9-N5rl-byswL3PGmUlx" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low nullFlavor="UNK" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="nSwI5LID-dlju-5d2B-FY1r-Msle2fAkbPr7" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob8" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low nullFlavor="UNK" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="473.9" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM" displayName="Unspecified sinusitis (chronic)" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="JjXhp4AX-XbUL-ekXc-zdSB-PpVY9mlfiVLc" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low value="20070126" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="3qK11JSX-dNHF-wMB5-9BWf-hcdiNHRdXxPc" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob9" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20070126" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="V17.1" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM" displayName="Family history of stroke (cerebrovascular)" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="b5SSH8st-ZD2G-3dTq-y77b-9oiHQ3Q9Br5W" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low value="20070126" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="fHYmilEE-n3mH-0tG6-leYZ-S7826ATHHMx9" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob10" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20070126" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="796.2" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM"
+											displayName="Elevated blood pressure reading without diagnosis of hypertension" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="R78aTxc5-Fnhi-LWwL-b9SP-VVJueWE8WF4L" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low value="20070126" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="ZhdnWi6f-LjyP-m8xZ-Ky5h-oKaB5f2bbKJC" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob11" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20070126" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="374.05" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM" displayName="Trichiasis of eyelid without entropion" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry typeCode="DRIV">
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.7" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<id root="KdTDeeMq-gP9L-0k8U-cgRf-yGthKAiSIFPi" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low value="20070126" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<id root="N3CSFmDq-hiua-ln1Z-bUo2-4lq6bD31rMHY" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#prob12" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20070126" />
+									</effectiveTime>
+									<value nullFlavor="UNK" xsi:type="CD">
+										<translation code="780.52" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9 CM" displayName="Insomnia, unspecified" />
+									</value>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.1.50" />
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												codeSystemName="LOINC" displayName="STATUS" />
+											<statusCode code="completed" />
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.103"
+												codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId root="2.16.840.1.113883.10.20.1.8" />
+					<templateId root="2.16.840.1.113883.3.88.11.83.112" />
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.19" />
+					<code code="10160-0" codeSystem="2.16.840.1.113883.6.1"
+						codeSystemName="LOINC" displayName="History of medication use" />
+					<title>Medications</title>
+					<text>
+						<table>
+							<thead>
+								<tr>
+									<th>Medication</th>
+									<th>Coding System</th>
+									<th>Code</th>
+									<th>Instructions</th>
+									<th>Start Date</th>
+									<th>Stop Date</th>
+									<th>Status</th>
+									<th>Comments</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td ID="med1">Apri</td>
+									<td>MediSpan</td>
+									<td>00555-9043-58</td>
+									<td>1 tablet 0.15-30 MG-MCG Orally Once a day</td>
+									<td>Aug 10, 2011</td>
+									<td>Unknown</td>
+									<td>Active</td>
+									<td>Taking</td>
+								</tr>
+								<tr>
+									<td ID="med2">Norco</td>
+									<td>MediSpan</td>
+									<td>12280-0035-00</td>
+									<td>1 tablet as needed for pain 10-325 MG Orally every 6 hrs</td>
+									<td>Dec 07, 2011</td>
+									<td>Unknown</td>
+									<td>Active</td>
+									<td>Taking</td>
+								</tr>
+								<tr>
+									<td ID="med3">Zofran ODT</td>
+									<td>MediSpan</td>
+									<td>00173-0569-00</td>
+									<td>1-2 tabs dissolve on tongue, then swallow prn 4 MG Orally q 6 hours</td>
+									<td>Dec 14, 2011</td>
+									<td>Unknown</td>
+									<td>Active</td>
+									<td>Taking</td>
+								</tr>
+								<tr>
+									<td ID="med4">Desonide Oint-Moisturizing Lot</td>
+									<td>MediSpan</td>
+									<td>00299-5775-01</td>
+									<td>as directed 0.05 % Externally </td>
+									<td>Jan 10, 2012</td>
+									<td>Unknown</td>
+									<td>Active</td>
+									<td>Taking</td>
+								</tr>
+								<tr>
+									<td ID="med5">Triamcinolone Acetonide</td>
+									<td>MediSpan</td>
+									<td>23490-6419-01</td>
+									<td>in orabase; apply to apthous ulcer 0.1 % Mouth/Throat QID</td>
+									<td>March 05, 2012</td>
+									<td>Unknown</td>
+									<td>Active</td>
+									<td>Taking</td>
+								</tr>
+								<tr>
+									<td ID="med6">Erythromycin</td>
+									<td>MediSpan</td>
+									<td>13548-0030-25</td>
+									<td>1 application to affected area 2 % Externally Twice a day</td>
+									<td>Nov 14, 2011</td>
+									<td>Unknown</td>
+									<td>Active</td>
+									<td>Taking</td>
+								</tr>
+								<tr>
+									<td ID="med7">Keflex</td>
+									<td>MediSpan</td>
+									<td>00247-1181-02</td>
+									<td>1 capsule 500 MG Orally every 12 hrs</td>
+									<td>Unknown</td>
+									<td>Unknown</td>
+									<td>Active</td>
+									<td>Taking</td>
+								</tr>
+								<tr>
+									<td ID="med8">Cipro</td>
+									<td>MediSpan</td>
+									<td>00085-1756-01</td>
+									<td>1 tablet 250 mg Orally every 12 hrs</td>
+									<td>Unknown</td>
+									<td>Unknown</td>
+									<td>Active</td>
+									<td>Taking</td>
+								</tr>
+								<tr>
+									<td ID="med9">Ciprofloxacin HCl</td>
+									<td>MediSpan</td>
+									<td>00065-0654-35</td>
+									<td>as directed 0.3 % Ophthalmic </td>
+									<td>Aug 24, 2011</td>
+									<td>Unknown</td>
+									<td>Active</td>
+									<td>Taking</td>
+								</tr>
+							</tbody>
+						</table>
+					</text>
+					<entry typeCode="DRIV">
+						<substanceAdministration classCode="SBADM"
+							moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.24" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.8" />
+							<id root="FyKrTmto-Qry6-UCI4-C6jF-PA4VSdg4h3am" />
+							<text>
+								<reference value="#med1" />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<routeCode code="UNK" codeSystem="2.16.840.1.113883.3.26.1.1"
+								codeSystemName="RouteOfAdministration" displayName="Orally" />
+							<doseQuantity value="0" />
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+									<templateId root="2.16.840.1.113883.10.20.1.53" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2" />
+									<templateId root="2.16.840.1.113883.3.88.11.83.8.2" />
+									<manufacturedMaterial>
+										<code code="00555-9043-58" codeSystemName="MediSpan"
+											displayName="Apri">
+											<originalText>
+												Apri
+												<reference value="#med1" />
+											</originalText>
+										</code>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+							<entryRelationship inversionInd="true"
+								typeCode="SUBJ">
+								<act classCode="ACT" moodCode="INT">
+									<templateId root="2.16.840.1.113883.10.20.1.49" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3" />
+									<code code="PINSTRUCT" codeSystem="1.3.6.1.4.1.19376.1.5.3.2"
+										codeSystemName="IHEActCode" />
+									<text>
+										<reference value="#ins1" />
+									</text>
+									<statusCode code="completed" />
+								</act>
+							</entryRelationship>
+						</substanceAdministration>
+					</entry>
+					<entry typeCode="DRIV">
+						<substanceAdministration classCode="SBADM"
+							moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.24" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.8" />
+							<id root="OpP50yFf-gFFi-VZ7a-CmqX-Z8PCXZvr2teS" />
+							<text>
+								<reference value="#med2" />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<routeCode code="UNK" codeSystem="2.16.840.1.113883.3.26.1.1"
+								codeSystemName="RouteOfAdministration" displayName="Orally" />
+							<doseQuantity value="0" />
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+									<templateId root="2.16.840.1.113883.10.20.1.53" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2" />
+									<templateId root="2.16.840.1.113883.3.88.11.83.8.2" />
+									<manufacturedMaterial>
+										<code code="12280-0035-00" codeSystemName="MediSpan"
+											displayName="Norco">
+											<originalText>
+												Norco
+												<reference value="#med2" />
+											</originalText>
+										</code>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+							<entryRelationship inversionInd="true"
+								typeCode="SUBJ">
+								<act classCode="ACT" moodCode="INT">
+									<templateId root="2.16.840.1.113883.10.20.1.49" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3" />
+									<code code="PINSTRUCT" codeSystem="1.3.6.1.4.1.19376.1.5.3.2"
+										codeSystemName="IHEActCode" />
+									<text>
+										<reference value="#ins2" />
+									</text>
+									<statusCode code="completed" />
+								</act>
+							</entryRelationship>
+						</substanceAdministration>
+					</entry>
+					<entry typeCode="DRIV">
+						<substanceAdministration classCode="SBADM"
+							moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.24" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.8" />
+							<id root="KbuDMiHU-1oZz-PtIV-jYUL-nuvSjH3AmzOV" />
+							<text>
+								<reference value="#med3" />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<routeCode code="UNK" codeSystem="2.16.840.1.113883.3.26.1.1"
+								codeSystemName="RouteOfAdministration" displayName="Orally" />
+							<doseQuantity value="0" />
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+									<templateId root="2.16.840.1.113883.10.20.1.53" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2" />
+									<templateId root="2.16.840.1.113883.3.88.11.83.8.2" />
+									<manufacturedMaterial>
+										<code code="00173-0569-00" codeSystemName="MediSpan"
+											displayName="Zofran ODT">
+											<originalText>
+												Zofran ODT
+												<reference value="#med3" />
+											</originalText>
+										</code>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+							<entryRelationship inversionInd="true"
+								typeCode="SUBJ">
+								<act classCode="ACT" moodCode="INT">
+									<templateId root="2.16.840.1.113883.10.20.1.49" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3" />
+									<code code="PINSTRUCT" codeSystem="1.3.6.1.4.1.19376.1.5.3.2"
+										codeSystemName="IHEActCode" />
+									<text>
+										<reference value="#ins3" />
+									</text>
+									<statusCode code="completed" />
+								</act>
+							</entryRelationship>
+						</substanceAdministration>
+					</entry>
+					<entry typeCode="DRIV">
+						<substanceAdministration classCode="SBADM"
+							moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.24" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.8" />
+							<id root="XiKF6gIO-87xF-4V2L-lB5u-mUgugGDmLeCr" />
+							<text>
+								<reference value="#med4" />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<routeCode code="UNK" codeSystem="2.16.840.1.113883.3.26.1.1"
+								codeSystemName="RouteOfAdministration" displayName="Externally" />
+							<doseQuantity value="0" />
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+									<templateId root="2.16.840.1.113883.10.20.1.53" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2" />
+									<templateId root="2.16.840.1.113883.3.88.11.83.8.2" />
+									<manufacturedMaterial>
+										<code code="00299-5775-01" codeSystemName="MediSpan"
+											displayName="Desonide Oint-Moisturizing Lot">
+											<originalText>
+												Desonide Oint-Moisturizing Lot
+												<reference value="#med4" />
+											</originalText>
+										</code>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+							<entryRelationship inversionInd="true"
+								typeCode="SUBJ">
+								<act classCode="ACT" moodCode="INT">
+									<templateId root="2.16.840.1.113883.10.20.1.49" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3" />
+									<code code="PINSTRUCT" codeSystem="1.3.6.1.4.1.19376.1.5.3.2"
+										codeSystemName="IHEActCode" />
+									<text>
+										<reference value="#ins4" />
+									</text>
+									<statusCode code="completed" />
+								</act>
+							</entryRelationship>
+						</substanceAdministration>
+					</entry>
+					<entry typeCode="DRIV">
+						<substanceAdministration classCode="SBADM"
+							moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.24" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.8" />
+							<id root="zBGZfrGI-ccXy-Bl4n-51n3-DxzCFFJ71rCJ" />
+							<text>
+								<reference value="#med5" />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<routeCode code="UNK" codeSystem="2.16.840.1.113883.3.26.1.1"
+								codeSystemName="RouteOfAdministration" displayName="Mouth/Throat" />
+							<doseQuantity value="0" />
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+									<templateId root="2.16.840.1.113883.10.20.1.53" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2" />
+									<templateId root="2.16.840.1.113883.3.88.11.83.8.2" />
+									<manufacturedMaterial>
+										<code code="23490-6419-01" codeSystemName="MediSpan"
+											displayName="Triamcinolone Acetonide">
+											<originalText>
+												Triamcinolone Acetonide
+												<reference value="#med5" />
+											</originalText>
+										</code>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+							<entryRelationship inversionInd="true"
+								typeCode="SUBJ">
+								<act classCode="ACT" moodCode="INT">
+									<templateId root="2.16.840.1.113883.10.20.1.49" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3" />
+									<code code="PINSTRUCT" codeSystem="1.3.6.1.4.1.19376.1.5.3.2"
+										codeSystemName="IHEActCode" />
+									<text>
+										<reference value="#ins5" />
+									</text>
+									<statusCode code="completed" />
+								</act>
+							</entryRelationship>
+						</substanceAdministration>
+					</entry>
+					<entry typeCode="DRIV">
+						<substanceAdministration classCode="SBADM"
+							moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.24" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.8" />
+							<id root="C9AKIXze-2MmR-AGtc-4XGw-lpPquY7WxWA0" />
+							<text>
+								<reference value="#med6" />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<routeCode code="UNK" codeSystem="2.16.840.1.113883.3.26.1.1"
+								codeSystemName="RouteOfAdministration" displayName="Externally" />
+							<doseQuantity value="0" />
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+									<templateId root="2.16.840.1.113883.10.20.1.53" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2" />
+									<templateId root="2.16.840.1.113883.3.88.11.83.8.2" />
+									<manufacturedMaterial>
+										<code code="13548-0030-25" codeSystemName="MediSpan"
+											displayName="Erythromycin">
+											<originalText>
+												Erythromycin
+												<reference value="#med6" />
+											</originalText>
+										</code>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+							<entryRelationship inversionInd="true"
+								typeCode="SUBJ">
+								<act classCode="ACT" moodCode="INT">
+									<templateId root="2.16.840.1.113883.10.20.1.49" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3" />
+									<code code="PINSTRUCT" codeSystem="1.3.6.1.4.1.19376.1.5.3.2"
+										codeSystemName="IHEActCode" />
+									<text>
+										<reference value="#ins6" />
+									</text>
+									<statusCode code="completed" />
+								</act>
+							</entryRelationship>
+						</substanceAdministration>
+					</entry>
+					<entry typeCode="DRIV">
+						<substanceAdministration classCode="SBADM"
+							moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.24" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.8" />
+							<id root="wvJcJQSF-u5wZ-8Dgz-vqiG-jCxRkHhE7FAC" />
+							<text>
+								<reference value="#med7" />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime xsi:type="IVL_TS">
+								<low nullFlavor="UNK" />
+								<high nullFlavor="UNK" />
+							</effectiveTime>
+							<routeCode code="UNK" codeSystem="2.16.840.1.113883.3.26.1.1"
+								codeSystemName="RouteOfAdministration" displayName="Orally" />
+							<doseQuantity value="0" />
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+									<templateId root="2.16.840.1.113883.10.20.1.53" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2" />
+									<templateId root="2.16.840.1.113883.3.88.11.83.8.2" />
+									<manufacturedMaterial>
+										<code code="00247-1181-02" codeSystemName="MediSpan"
+											displayName="Keflex">
+											<originalText>
+												Keflex
+												<reference value="#med7" />
+											</originalText>
+										</code>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+							<entryRelationship inversionInd="true"
+								typeCode="SUBJ">
+								<act classCode="ACT" moodCode="INT">
+									<templateId root="2.16.840.1.113883.10.20.1.49" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3" />
+									<code code="PINSTRUCT" codeSystem="1.3.6.1.4.1.19376.1.5.3.2"
+										codeSystemName="IHEActCode" />
+									<text>
+										<reference value="#ins7" />
+									</text>
+									<statusCode code="completed" />
+								</act>
+							</entryRelationship>
+						</substanceAdministration>
+					</entry>
+					<entry typeCode="DRIV">
+						<substanceAdministration classCode="SBADM"
+							moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.24" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.8" />
+							<id root="ACkfAI4g-ucHl-zVtK-YOJF-e0elLs4yTYFH" />
+							<text>
+								<reference value="#med8" />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime xsi:type="IVL_TS">
+								<low nullFlavor="UNK" />
+								<high nullFlavor="UNK" />
+							</effectiveTime>
+							<routeCode code="UNK" codeSystem="2.16.840.1.113883.3.26.1.1"
+								codeSystemName="RouteOfAdministration" displayName="Orally" />
+							<doseQuantity value="0" />
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+									<templateId root="2.16.840.1.113883.10.20.1.53" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2" />
+									<templateId root="2.16.840.1.113883.3.88.11.83.8.2" />
+									<manufacturedMaterial>
+										<code code="00085-1756-01" codeSystemName="MediSpan"
+											displayName="Cipro">
+											<originalText>
+												Cipro
+												<reference value="#med8" />
+											</originalText>
+										</code>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+							<entryRelationship inversionInd="true"
+								typeCode="SUBJ">
+								<act classCode="ACT" moodCode="INT">
+									<templateId root="2.16.840.1.113883.10.20.1.49" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3" />
+									<code code="PINSTRUCT" codeSystem="1.3.6.1.4.1.19376.1.5.3.2"
+										codeSystemName="IHEActCode" />
+									<text>
+										<reference value="#ins8" />
+									</text>
+									<statusCode code="completed" />
+								</act>
+							</entryRelationship>
+						</substanceAdministration>
+					</entry>
+					<entry typeCode="DRIV">
+						<substanceAdministration classCode="SBADM"
+							moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.24" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.1" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.8" />
+							<id root="U6Fd3j01-FzOn-ZkAB-XWh9-Nd0J2KaUC7FG" />
+							<text>
+								<reference value="#med9" />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<routeCode code="UNK" codeSystem="2.16.840.1.113883.3.26.1.1"
+								codeSystemName="RouteOfAdministration" displayName="Ophthalmic" />
+							<doseQuantity value="0" />
+							<consumable>
+								<manufacturedProduct classCode="MANU">
+									<templateId root="2.16.840.1.113883.10.20.1.53" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2" />
+									<templateId root="2.16.840.1.113883.3.88.11.83.8.2" />
+									<manufacturedMaterial>
+										<code code="00065-0654-35" codeSystemName="MediSpan"
+											displayName="Ciprofloxacin HCl">
+											<originalText>
+												Ciprofloxacin HCl
+												<reference value="#med9" />
+											</originalText>
+										</code>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+							<entryRelationship inversionInd="true"
+								typeCode="SUBJ">
+								<act classCode="ACT" moodCode="INT">
+									<templateId root="2.16.840.1.113883.10.20.1.49" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.3" />
+									<code code="PINSTRUCT" codeSystem="1.3.6.1.4.1.19376.1.5.3.2"
+										codeSystemName="IHEActCode" />
+									<text>
+										<reference value="#ins9" />
+									</text>
+									<statusCode code="completed" />
+								</act>
+							</entryRelationship>
+						</substanceAdministration>
+					</entry>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId root="2.16.840.1.113883.3.88.11.83.122" />
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.28" />
+					<code code="30954-2" codeSystem="2.16.840.1.113883.6.1"
+						codeSystemName="LOINC" displayName="Results" />
+					<title>Results</title>
+					<text>
+						<table>
+							<thead>
+								<tr>
+									<th>Test</th>
+									<th>Attribute</th>
+									<th>Value(Normal Range)</th>
+									<th>LOINC Code</th>
+									<th>Result</th>
+									<th>Date</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Liver Profile</td>
+									<td>Albumin, Serum</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>Alkaline Phosphatase, S</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>ALT (SGPT)</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>AST (SGOT)</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>Bilirubin, Direct</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>Bilirubin, Total</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>Protein, Total, Serum</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>Albumin, Serum</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>Alkaline Phosphatase, S</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>ALT (SGPT)</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>AST (SGOT)</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>Bilirubin, Direct</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>Bilirubin, Total</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Liver Profile</td>
+									<td>Protein, Total, Serum</td>
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Xray : Ankle, 3 views RT</td>
+									<td />
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Xray : Foot 2 Views, LT</td>
+									<td />
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Xray : Ankle, 3 views LT</td>
+									<td />
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Spirometry Routine</td>
+									<td />
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>Androscopy Exam With Biopsy</td>
+									<td />
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+								<tr>
+									<td>EAR IRRIGATION</td>
+									<td />
+									<td> ()</td>
+									<td />
+									<td />
+									<td />
+								</tr>
+							</tbody>
+						</table>
+					</text>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="kX4sn7XA-803g-if6A-Vs4T-ikKfGIsflnOj" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc2" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="jLS4vfSm-9hDi-lTEH-FIgt-Z2c5nldaKCVF" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="Albumin, Serum" />
+									<text>
+										<reference value="#Res2" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="ZBHpdfiD-O9hq-93lK-qTs9-EzYJsw2Q1YWe" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc3" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="ZQCoV1ib-l8Jq-Y9Ad-p1sP-wS9sF0xMGyIe" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="Alkaline Phosphatase, S" />
+									<text>
+										<reference value="#Res3" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="zDjqnC1p-TGds-R9sl-sGdq-mQniwjuBS9k1" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc4" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="08JcNnHS-fnpD-Hsub-fQEE-CKGF1EJh1LEx" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="ALT (SGPT)" />
+									<text>
+										<reference value="#Res4" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="Oy4T2VUS-raZZ-BuOU-mlxI-Sg5vH8Ss9Oe2" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc5" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="3xBSPQs6-YmYh-5IJs-HZwO-GSiImXEBETgw" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="AST (SGOT)" />
+									<text>
+										<reference value="#Res5" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="5S3TFSoJ-FoVl-C4g4-Gxtl-0fIJ1AftKBOL" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc6" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="LhgGf2P8-o53C-Ftgr-ejaL-L21WNNu69wJc" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="Bilirubin, Direct" />
+									<text>
+										<reference value="#Res6" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="vOSEWJBC-wYY1-2XMt-XWDY-Ep8TN1MYJm8P" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc7" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="b9OpK8ty-lZvU-tZMw-msX9-JTsC4w6mCzV2" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="Bilirubin, Total" />
+									<text>
+										<reference value="#Res7" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="11j2Y4g9-vl3z-66sA-4DRD-2nJVdTdcQQrW" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc8" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="zLFM2Qgd-qmC6-7REt-Sab2-FZANe07aZV0u" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="Protein, Total, Serum" />
+									<text>
+										<reference value="#Res8" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="E74YoaZc-hdk5-FZMh-65d6-0MEmTsMZeNoz" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc9" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="lHw5GSBf-edqS-QWqZ-kTdR-DDZcYDh83HP4" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="Albumin, Serum" />
+									<text>
+										<reference value="#Res9" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="xqRYAlIO-JGRj-Pp21-q0Ym-ExvFfUnRqNK8" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc10" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="Ettbxrdw-Srui-0cqM-8rt1-p7PC8zhSiyKb" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="Alkaline Phosphatase, S" />
+									<text>
+										<reference value="#Res10" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="6fGd5yvJ-aoUz-RqlT-eubO-Gm8gZIfrO1lW" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc11" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="Xj6n5PcV-n8e4-HLld-R6yE-q9RhyW2DHwox" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="ALT (SGPT)" />
+									<text>
+										<reference value="#Res11" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="7cbGVnOR-KZkP-ySXO-wEYM-FIo3foTd8WmK" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc12" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="c2L7JdQy-YbyB-csHN-LN5q-kfJB7GK3T8WG" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="AST (SGOT)" />
+									<text>
+										<reference value="#Res12" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="NjVQ3gP8-31RU-nzAr-LkTx-bnjyXcbp74OG" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc13" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="m1TbFjO5-6KzG-TSOf-1CCw-Q0meTDwnRGSb" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="Bilirubin, Direct" />
+									<text>
+										<reference value="#Res13" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="NK3fFhKc-NYte-t71Q-WIyq-xCYpXIqkMm0M" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc14" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="tIGhHWBw-kT00-9KT7-tIIW-i6Y7si4x0tMa" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="Bilirubin, Total" />
+									<text>
+										<reference value="#Res14" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="K1gIStGT-xDPA-cqcl-ipCx-5lecM02Hh3F7" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc15" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="cuGRpxvi-WZmu-AcBy-bYvs-GWG138rLGlsE" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="Protein, Total, Serum" />
+									<text>
+										<reference value="#Res15" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="IB4uyRgl-lAfa-mdeU-oHPp-AuJjlsJNKV05" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc16" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="roTuRlln-6Mac-OgpS-xfxU-VxgzfLqmtv3d" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="UNK" />
+									<text>
+										<reference value="#Res16" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="QGC9ZF3a-fwaR-KJYc-HLSw-4XyFIq8SN5d3" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc17" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="fOnyIpwK-nGc9-DoVK-jwIN-arnZgONNyiAg" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="UNK" />
+									<text>
+										<reference value="#Res17" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="LL5b0Ent-2DX1-fXvt-iIHP-lKyrX5EIZSY6" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc18" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="mZdFHGaG-Or4z-BrLp-BhD3-osNcCgFsyOJW" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="UNK" />
+									<text>
+										<reference value="#Res18" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="u48KJE92-j64I-9gPk-gZIE-l04j73dQb0Hu" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc19" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="VipAVpqv-ikqT-doSp-b3e3-M3P6CqBqsrLT" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="UNK" />
+									<text>
+										<reference value="#Res19" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="eenNZ9OE-x9QU-Ya7w-uTEY-Y6O6dXdwEN2V" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc20" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="M1AI3Wfo-QdoQ-Auo8-js26-BTXtrc9NGxfm" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="UNK" />
+									<text>
+										<reference value="#Res20" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+					<entry typeCode="DRIV">
+						<procedure classCode="PROC" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.1.29" />
+							<templateId root="2.16.840.1.113883.3.88.11.83.17" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19" />
+							<id root="C7zcW4XG-Wgqq-DDrx-at1t-xzpkitrkQ0Gu" />
+							<code code="0" codeSystem="2.16.840.1.113883.6.12"
+								codeSystemName="CPT-4" displayName="UNK">
+								<originalText>
+									<reference value="#proc21" />
+								</originalText>
+							</code>
+							<text>
+								<reference />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime nullFlavor="UNK" />
+							<entryRelationship typeCode="RSON">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.3.88.11.83.15.1" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
+									<templateId root="2.16.840.1.113883.10.20.1.31" />
+									<id root="kkub2FBX-dgI5-J7xh-7lv9-9zf2S9rjFhly" />
+									<code code="UNK" codeSystem="2.16.840.1.113883.5.83"
+										displayName="UNK" />
+									<text>
+										<reference value="#Res21" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20110824" />
+									<value unit="UNK" value="0" xsi:type="PQ" />
+									<interpretationCode code="L"
+										codeSystem="2.16.840.1.113883.5.83" />
+									<referenceRange>
+										<observationRange>
+											<value xsi:type="IVL_PQ">
+												<low nullFlavor="UNK" unit="UNK" />
+												<high nullFlavor="UNK" unit="UNK" />
+											</value>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</entryRelationship>
+						</procedure>
+					</entry>
+				</section>
+			</component>
+		</structuredBody>
+	</component>
+</ClinicalDocument>
